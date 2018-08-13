@@ -1,0 +1,29 @@
+{
+  "name": "leviathan",
+  "version": "1.0.0",
+  "description": "An Actions on Google plugin and CLI tool for advanced use cases",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lucaswadedavis/leviathan.git"
+  },
+  "keywords": [
+    "Actions",
+    "on",
+    "Google",
+    "Dialogflow"
+  ],
+  "author": "Lucas Wade Davis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucaswadedavis/leviathan/issues"
+  },
+  "homepage": "https://github.com/lucaswadedavis/leviathan#readme"
+}

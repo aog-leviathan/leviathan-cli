@@ -1,0 +1,4 @@
+{
+  "deploy": "firebase deploy --only functions",
+  "target": "./app.js"
+}
