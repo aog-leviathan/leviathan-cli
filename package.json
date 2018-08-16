@@ -1,6 +1,6 @@
 {
   "name": "leviathan",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "An Actions on Google plugin and CLI tool for advanced use cases",
   "main": "index.js",
   "directories": {
@@ -27,15 +27,13 @@
   },
   "homepage": "https://github.com/lucaswadedavis/leviathan#readme",
   "preferGlobal": true,
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "bin": {
     "leviathan": "./bin/index.js"
   },
   "dependencies": {
     "colors": "^1.2.1",
     "commander": "^2.15.1",
+    "find": "^0.2.9",
     "inquirer": "^5.2.0",
     "jsonfile": "^4.0.0",
     "pad": "^2.0.3"

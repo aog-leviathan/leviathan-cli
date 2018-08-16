@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const init = require('../lib/init');
+const deploy = require('../lib/deploy');
 
 const program = require('commander');
 
@@ -31,7 +32,7 @@ program
   .alias('d')
   .description('deploy!')
   .action(() => {
-    console.log('-- deploy --');
+    deploy();
   });
 
 // allow commander to parse `process.argv`

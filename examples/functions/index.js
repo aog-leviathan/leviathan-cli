@@ -1,4 +1,7 @@
-const { functions } = require('firebase-functions');
-const { app } require('./app');
+const functions = require('firebase-functions');
+const { app } = require('./app');
 
-exports.leviathanExample = functions.https.onRequest(app);
+console.log(functions);
+console.log('---|---');
+
+exports.leviathanExample = functions.https.onRequest(app.app);
