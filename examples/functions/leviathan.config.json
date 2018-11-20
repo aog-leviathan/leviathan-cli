@@ -1,4 +1,5 @@
 {
   "deploy": "firebase deploy --only functions",
+  "projectId": "lukedavis-leviathan",
   "target": "./app.js"
 }

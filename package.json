@@ -1,6 +1,6 @@
 {
   "name": "leviathan",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An Actions on Google plugin and CLI tool for advanced use cases",
   "main": "index.js",
   "directories": {
@@ -33,6 +33,7 @@
   "dependencies": {
     "colors": "^1.2.1",
     "commander": "^2.15.1",
+    "dialogflow": "^0.7.0",
     "find": "^0.2.9",
     "inquirer": "^5.2.0",
     "jsonfile": "^4.0.0",

@@ -1,4 +1,4 @@
-const { EntityType, Intent, Leviathan } = require('../../index');
+const { EntityType, Intent, Leviathan } = require('leviathan');
 const { dialogflow, Suggestions } = require('actions-on-google');
 
 const app = new Leviathan(dialogflow({debug: true}));
