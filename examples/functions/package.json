@@ -13,6 +13,7 @@
     "dialogflow": "^0.6.0",
     "firebase-admin": "~5.12.1",
     "firebase-functions": "^1.0.3",
+    "inquirer": "^6.2.0",
     "leviathan": "^1.0.4",
     "xml-js": "^1.6.7",
     "xml2js": "^0.4.19"

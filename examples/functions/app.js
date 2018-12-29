@@ -30,6 +30,8 @@ const intent = new Intent({
 
 });
 
+
+
 app.create(intent);
 app.create(entityType);
 
