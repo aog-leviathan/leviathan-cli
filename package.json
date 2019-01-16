@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/lucaswadedavis/leviathan.git"
+    "url": "git+ssh://git@github.com/aog-leviathan/leviathan-cli.git"
   },
   "keywords": [
     "Actions",
@@ -22,9 +22,9 @@
   "author": "Lucas Wade Davis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lucaswadedavis/leviathan/issues"
+    "url": "https://github.com/aog-leviathan/leviathan-cli/issues"
   },
-  "homepage": "https://github.com/lucaswadedavis/leviathan#readme",
+  "homepage": "https://github.com/aog-leviathan/leviathan-cli#readme",
   "preferGlobal": true,
   "bin": {
     "leviathan": "./bin/index.js"
