@@ -5,14 +5,12 @@ const deploy = require('../lib/deploy');
 
 const program = require('commander');
 
-// import function to list coffeee menu
-// const help = require('../lib/help');
-// const init = require('../lib/init');
-// const deploy = require('../lib/deploy');
+// we'll probably add more commands, like options for deploying
+// fulfillment alone vs NLU vs NLU & fulfillment
 
 program
   .command('help') // sub-command name
-  .alias('h') // alternative sub-command is `al`
+  .alias('h') // alternative sub-command is `h`
   .description('ask for help') // command description
   .action(function () {
     console.log('-- help --');

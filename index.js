@@ -1,5 +1,6 @@
 const { parse } = require('./lib/phrase-parser');
 
+// probably yank this out into it's own file
 class Intent {
   constructor(opts) {
     this.output = {};
@@ -18,13 +19,15 @@ class Intent {
     output.webhookState += this.fulfillment ? 'ENABLED' : 'DISABLED';
     output.mlEnabled = false;
     output.priority = 500000;
+    // this is the thing to fix the List bug
+    // the "result" - weirdly - is where parameters are defined
+    // output.result
     this.output = output;
-    //console.log(JSON.stringify(this.output, null, 2));
-    //console.log('\n\n\n');
   }
 
 }
 
+// probably yank this out into it's own file
 class EntityType {
   constructor(opts) {
     Object.assign(this, opts);
@@ -42,6 +45,9 @@ class EntityType {
 class Leviathan {
 
   constructor(app) {
+    // this is so dumb, I have something that people will
+    // inevitibly call "app" with a property called "app"
+    // Fix this Luke Davis
     this.app = app;
     this.intents = [];
     this.entityTypes = [];
@@ -49,7 +55,10 @@ class Leviathan {
   }
 
   create(...args) {
-    // only handle intents for now
+    // at the moment we're only registering intents and entities
+    // in the future, rather than registering entities directly
+    // we'll probably just walk the tree registering Intents, Entities,
+    // and Contexts as we go
     for (let arg of args) {
       if (arg instanceof Intent) {
         this.app.intent(arg.name, arg.fulfillment);

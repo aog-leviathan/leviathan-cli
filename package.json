@@ -1,6 +1,6 @@
 {
   "name": "leviathan",
-  "version": "1.1.13",
+  "version": "1.1.14",
   "description": "An Actions on Google plugin and CLI tool for advanced use cases",
   "main": "index.js",
   "directories": {

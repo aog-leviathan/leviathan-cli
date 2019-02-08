@@ -58,7 +58,7 @@ deployed to Firebase Functions.
 ## Setup
 
 Okay, first we'll need a project: I recommend going
-(here)[https://github.com/actions-on-google/dialogflow-webhook-boilerplate-nodejs]
+[here](https://github.com/actions-on-google/dialogflow-webhook-boilerplate-nodejs)
 (which is the Actions on Google Dialogflow boilerplatiest of the boilerplate
 Actions) and clicking on the "Add to Dialgflow" button, which will create a
 project and route you to the console. Keep that window open for a sec.
@@ -82,9 +82,9 @@ get around it yet.
 
 You're going to need to set up the credentials. At
 least, there's a guide
-(here)[https://cloud.google.com/docs/authentication/getting-started]
+[here](https://cloud.google.com/docs/authentication/getting-started)
 
 Once you've don ALL that, we're finally ready to begin.
 
-I suggest taking a look at the (leviathan examples
-repo)[https://github.com/aog-leviathan/leviathan-examples/tree/master/simple-example/functions]
+I suggest taking a look at the [leviathan examples
+repo](https://github.com/aog-leviathan/leviathan-examples/tree/master/simple-example/functions)
